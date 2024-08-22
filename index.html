@@ -2,43 +2,33 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="autothor" content="Vinícius">
-    <meta name="kayords" content="Exercício,Vinícius">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>
+        Login
+    </title>
     <link rel="stylesheet" href="./styles/index.css">
+    <!-- <link rel="stylesheet" href="./styles/1-home.css"> -->
+    <link rel="stylesheet" href="./1-home.html">
 </head>
 <body>
-    <sectio>
-    <header>
-        <h1>
-            Login
-        </h1>
-    </header>
-      
+    <main>
+        <section class="login" id="login">
+            <h1 class="title" id="title">Login</h1>
 
-        <form>
-            <div>
-                <label for="Email:">Email:</label>
-                <input type="text" id="email" name="email" required>
-            </div>
-            <div>
-                <label for="Password:">Password:</label>
-                <input type="text" id="password" name="password" required>
-            </div>
+            <form action="" class="form" id="form-login">
+                <input class="form" type="email" name="email" id="email" placeholder="Email" required>
+                <input class="form" type="senha" name="senha" id="senha" placeholder="Senha" required>
+                <button class="btn-login" id="btn-login" name="btn-login">
+                    Login
+                </button>
+            </form>
 
-            <div>
-                <a href="1-home.html">Login</a>
+            <div class="redirect">
+                <article class="Esqueceu sua" id="Esqueceu sua">Esqueceu sua <a href="./forgot.html">Senha</a>?</article>
+                <article class="Cadastre-se" id="Cadastre-se">Não tem uma conta? <a href="./sign.html">Cadastre-se</a></article>
             </div>
-
-            <div>
-                Forgot <a href="#">Password?</a>
-            </div>
-
-            <div>
-                Dont' have an account? <a href="#">Singn up</a>
-            </div>
-
-        </form>
-    </sectio>
+        </section>
+    </main>
 </body>
+</html>
+
