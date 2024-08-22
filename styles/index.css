@@ -47,7 +47,7 @@ input{
 }
 
 input:focus{
-    outline: none;
+    outline: none; /*Elimina o contorno do input selecionado*/
 }
 
 .btn-login{
@@ -71,7 +71,7 @@ input:focus{
 }
 
 a{
-    text-decoration: none; /*Tirar sublinhado*/
+    text-decoration: none; 
     color: #3075c0;
 }
 
